@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Smartphones (portrait and landscape) -------------*/
+        @media (max-width : 640px) {
+            .tel {
+                display: block;
+
+            }
+
+            .div:not(.tel) {
+                display: none;
+            }
+        }
+
+        /* iPads (portrait and landscape) --------*/
+        @media (min-with : 641) and (max-with : 768px) {
+            .tab {
+                display: block;
+            }
+
+            .div:not(.tab) {
+                display: none;
+            }
+        }
+
+        /* Desktop and laptops -----------*/
+        @media (min-with : 769) and (max-with : 1223px) {
+            .des {
+                display: block;
+            }
+
+            .div:not(.des) {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="des">
+        <img src="../Proiect/assets/images/laptop.jpg" alt="">
+        <h1>suntem de laptop</h1>
+
+    </div>
+    <div class="tab">
+        <img src="../Proiect/assets/images/Tableta-HUAWEI-MediaPad-T10s-Deepsea-Blue_8.webp" alt="">
+        <h1>suntem de tableta</h1>
+
+    </div>
+    <div class="tel">
+        <img src="../Proiect/assets/images/telefon.webp" alt="">
+        <h1>suntem de telefon</h1>
+
+    </div>
+</body>
+
+</html>
