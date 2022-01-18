@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+</head>
+<h1> Formular contact</h1>
+
+<body>
+    <form action="">
+        <label for="">Oras</label>
+        <select name="Oras" id="Selecteaza">
+            <option value=" Selecteaza">Selecteaza</option>t
+            <option value="Bucuresti">Bucuresti</option>
+            <option value="Timisoara">Timisoara</option>
+            <option value="Brasov">Brasov</option>
+        </select>
+        <br>
+        <label for="Cursuri">Cursuri la care doriti sa va inscrieti</label>
+        <select multiple class="form-control" id="cursuri" name="cursuri[]">
+            <option value="PHP">PHP</option>
+            <option value="HTML">HTML</option>
+            <option value="Javascript">Javascript</option>
+            <option value="Photoshop">Photoshop</option>
+        </select>
+        <br>
+        <label for="mesaj"></label>
+        <textarea name="Mesaj" id="" cols="30" rows="10">Mesaj</textarea>
+        <br>
+        <label for="cv">CV</label>
+        <input type="file">
+        <br>
+        <label for="program">Program cursuri</label>
+        <input type="radio" name="dimineata"> Dimineata </input>
+        <input type="radio" name=" la pranz"> La pranz </input>
+        <input type="radio" name=" seara"> Seara </input>
+        <br>
+
+    </form>
+</body>
+
+</html>
